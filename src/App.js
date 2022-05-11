@@ -1,13 +1,13 @@
 import "./App.css";
+import Hero from "./components/Hero/Hero";
+import Header from "./components/Layout/Header/Header";
 
 function App() {
-  console.log("App");
   return (
-    <nav>
-      <div className="container flex flex-row justify-center">
-        <h1 className="text-2xl">Hi</h1>
-      </div>
-    </nav>
+    <>
+      <Header/>
+      <Hero/>
+    </>
   );
 }
 
