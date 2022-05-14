@@ -1,8 +1,8 @@
-<svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60%" id="blobSvg">
+<svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
   <g transform="translate(195, 52)">
     <defs>
       <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" style="stop-color: rgb(1, 35, 71);"></stop>
+        <stop offset="0%" style="stop-color: rgb(2, 56, 115);"></stop>
         <stop offset="100%" style="stop-color:  rgb(0, 43, 89);"></stop>
       </linearGradient>
     </defs>

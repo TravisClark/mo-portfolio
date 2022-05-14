@@ -5,22 +5,23 @@ module.exports = {
       colors:{
         'black-dark-blue': 'rgba(2,0,36,1) 0%',
         'dark-blue': 'rgba(2,26,52,1) 100%',
-        'dark-light-blue': '#02274f'
-        
+        'dark-light-blue': '#02274f',
+        'splashIntro': '#161616',
       }
     },
     screens: {
-      'sm': {'max': '480px'},
-      // => @media (max-width: 480px) { Mobile }
+      'sm': '480px',
+      // => @media (min-width: 480px) { Mobile }
 
-      'md': {'max': '768px'},
-      // => @media (max-width: 768px) { ... }
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
 
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
 
       'xl': '1440px',
       // => @media (min-width: 1280px) { ... }
+
     }
   },
   plugins: [],
