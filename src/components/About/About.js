@@ -4,7 +4,7 @@ import Avatar from "../../assets/avartar.png";
 const About = () => {
   return (
     <section id="about">
-      <Container className="flex flex-col px-6 items-center h-screen">
+      <Container className="flex flex-col px-6 items-center">
         <span className="relative flex text-white mb-16 font-bold text-2xl md:text-4xl after:w-full after:bg-white after:h-0.5 after:absolute after:mt-8 after:md:mt-12 ">
           About me
         </span>
