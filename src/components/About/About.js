@@ -20,7 +20,7 @@ const About = () => {
               <button>See more</button>
             </div>
           </div>
-          <p className="border-2 border-white border-double py-10 px-8 tracking-wider text-white text-lg md:w-1/2 xl:w-1/3 lg:py-20">
+          <p className="border-2 border-white border-double py-10 px-8 tracking-wider text-justify text-white text-lg md:w-1/2 xl:w-1/3 lg:py-20">
             My name is Triet. Currently, I am a junior who is self-study and
             really serious about being a good frontend developer. With that, I
             will contribute to any project with my best.
