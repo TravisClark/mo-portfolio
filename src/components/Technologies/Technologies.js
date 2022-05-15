@@ -16,7 +16,7 @@ const Technologies = () => {
         <span className="relative flex text-white font-bold text-2xl md:text-4xl after:w-full after:bg-white after:h-0.5 after:absolute after:mt-8 after:md:mt-12 ">
           Technologies
         </span>
-        <p className="text-lg w-full text-gray-400 tracking-wider lg:w-9/12">
+        <p className="text-lg text-justify w-full text-gray-400 tracking-wider lg:w-9/12">
           These are some technologies that I've learnt <br /> so far through
           some small projects and courses.
         </p>
