@@ -7,9 +7,9 @@ const Project = () => {
         <span className="relative flex text-white font-bold text-2xl md:text-4xl after:w-full after:bg-white after:h-0.5 after:absolute after:mt-8 after:md:mt-12 ">
           Projects
         </span>
-        <div className="flex justify-center">
+        <div data-aos='fade-up' className="flex justify-center">
           <div className="rounded-xl flex flex-col border-2 border-gray-700 shadow-md items-center w-full shadow-slate-400 space-y-6 p-6 transition duration-700 hover:scale-105 hover:shadow-2xl sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/3">
-            <a href="https://nextjs-todo-project.vercel.app" className="z-20">
+            <a href="https://nextjs-todo-project.vercel.app">
               <img src={todoImg} className="rounded-xl" alt="" />
             </a>
             <span className="text-sky-500 text-2xl font-bold relative flex justify-center after:absolute after:w-1/2 after:bg-sky-500 after:h-1 after:mt-12">

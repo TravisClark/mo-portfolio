@@ -1,6 +1,7 @@
 import Container from "../UI/Container/Container";
 import { ReactComponent as Blob } from "../../assets/blob_6-6-39555.svg";
 import classes from "./Hero.module.css";
+import MyResume from '../../cv/To Minh Triet_CV_topdev.vn.pdf'
 const Hero = () => {
   return (
     <section id="hero">
@@ -29,9 +30,10 @@ const Hero = () => {
             next few years. Please feel free to look around and hopefully you
             can give me some feedbacks. Thanks you so much!
           </p>
-          <button className="px-8 py-4 border border-blue-600 w-fit text-white font-medium rounded-xl bg-transparent transition duration-500 hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-900 hover:border-0 hover:scale-105">
+          <a href={MyResume} download={MyResume}><button className="px-8 py-4 border border-blue-600 w-fit text-white font-medium rounded-xl bg-transparent transition duration-500 hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-900 hover:border-0 hover:scale-105">
             Download CV
-          </button>
+          </button></a>
+          
         </div>
       </Container>
     </section>
