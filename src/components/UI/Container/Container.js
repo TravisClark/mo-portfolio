@@ -1,5 +1,5 @@
 const Container = (props)=>{
-    const defaultClass = 'container-full mx-auto p-4 min-w-full'
+    const defaultClass = 'container mx-auto p-4'
     return <div className={`${defaultClass} ${props.className}`}>{props.children}</div>
 }
 

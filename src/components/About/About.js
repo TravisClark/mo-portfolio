@@ -13,7 +13,7 @@ const About = () => {
             <div className={classes.content}>
               <img src={Avatar} alt="" />
               <h2>
-                A junior
+                A 3rd year student
                 <br />
                 <span>A front-end developer</span>
               </h2>
