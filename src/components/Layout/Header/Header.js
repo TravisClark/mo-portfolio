@@ -7,7 +7,7 @@ import classes from "./Header.module.css";
 const Header = () => {
   return (
     <nav>
-      <Container className="fixed z-10 flex text-white justify-around md:flex-row">
+      <Container className="fixed min-w-full z-10 flex text-white justify-around md:flex-row">
         <div className="flex flex-row space-x-2">
           <span className="font-bold text-5xl flex flex-row">
             M

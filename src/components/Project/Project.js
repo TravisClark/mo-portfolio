@@ -3,7 +3,7 @@ import todoImg from "../../assets/todo.png";
 const Project = () => {
   return (
     <section id="projects">
-      <Container className="flex flex-col space-y-12 mt-36 items-center">
+      <Container className="flex flex-col px-6 space-y-12 mt-36 items-center">
         <span className="relative flex text-white font-bold text-2xl md:text-4xl after:w-full after:bg-white after:h-0.5 after:absolute after:mt-8 after:md:mt-12 ">
           Projects
         </span>

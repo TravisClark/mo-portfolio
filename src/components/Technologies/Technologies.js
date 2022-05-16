@@ -12,7 +12,7 @@ import reactIcon from "../../assets/icons8-react.svg";
 const Technologies = () => {
   return (
     <section id="technologies">
-      <Container className="flex flex-col space-y-12 mt-36 items-center px-6 md:px-16 ">
+      <Container className="flex flex-col space-y-12 mt-36 items-center mx-auto px-6 md:px-16 ">
         <span className="relative flex text-white font-bold text-2xl md:text-4xl after:w-full after:bg-white after:h-0.5 after:absolute after:mt-8 after:md:mt-12 ">
           Technologies
         </span>
