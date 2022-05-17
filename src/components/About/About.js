@@ -1,7 +1,7 @@
 import Container from "../UI/Container/Container";
 import classes from "./About.module.css";
 import Avatar from "../../assets/avartar.png";
-import MyResume from '../../cv/To Minh Triet_CV_topdev.vn.pdf'
+import MyResume from '../../cv/cv.pdf'
 const About = () => {
   return (
     <section id="about">

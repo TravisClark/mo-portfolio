@@ -1,7 +1,7 @@
 import Container from "../UI/Container/Container";
 import { ReactComponent as Blob } from "../../assets/blob_6-6-39555.svg";
 import classes from "./Hero.module.css";
-import MyResume from '../../cv/To Minh Triet_CV_topdev.vn.pdf'
+import MyResume from '../../cv/cv.pdf'
 const Hero = () => {
   return (
     <section id="hero">
