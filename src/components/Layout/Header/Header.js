@@ -18,7 +18,7 @@ const Header = () => {
   }
   // Change navbar background color
   const changeNavBg = () => {
-    if(window.scrollY >= 200){
+    if(window.scrollY >= 150){
       setChangeNavColor(true);
     }
     else {
@@ -35,10 +35,10 @@ const Header = () => {
             <img
               src={logo}
               alt="a"
-              className="h-8 self-end bg-white rounded-full"
+              className="h-8 self-end bg-white mb-1 rounded-full"
             />
           </span>
-          <span className="font-bold text-2xl  self-end">portfolio</span>
+          <span className="font-bold text-2xl self-end">portfolio</span>
         </div>
         {/* Mobile nav */}
         <div className={`${mobileNavOpen} hidden absolute z-0 flex-col justify-center items-center space-y-12 min-w-full h-screen bg-black -mt-4`}>

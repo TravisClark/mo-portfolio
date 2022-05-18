@@ -21,7 +21,7 @@ const Technologies = () => {
         </p>
         <div data-aos='fade-up' className="flex flex-col space-y-8 w-full justify-evenly md:flex-row md:space-y-0 md:space-x-8 lg:w-9/12">
           <div className=" flex flex-col space-y-2 text-black p-4 rounded-xl bg-white md:w-1/2">
-            <h1 className="font-medium text-xl">Programming Languages</h1>
+            <h1 className="font-medium text-xl">DOM world</h1>
             <div className="flex flex-row justify-evenly">
               <div className="flex flex-col text-center">
                 <img src={htmlIcon} alt="" />
