@@ -26,7 +26,7 @@ const Hero = () => {
           </p>
           <p className="text-md text-justify text-gray-400 md:text-xl lg:text-2xl">
             Hi! My name is Triet but you can call me Mo. This is a portfolio of
-            a student who intends to become a professional front-end dev in the
+            a student who intends to become a professional <span className="text-white uppercase font-medium">front-end dev</span> in the
             next few years. Please feel free to look around and hopefully you
             can give me some feedbacks. Thanks you so much!
           </p>
