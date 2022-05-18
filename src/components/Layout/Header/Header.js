@@ -18,7 +18,7 @@ const Header = () => {
   }
   // Change navbar background color
   const changeNavBg = () => {
-    if(window.scrollY >= 150){
+    if(window.scrollY >= 50 ){
       setChangeNavColor(true);
     }
     else {
@@ -28,7 +28,7 @@ const Header = () => {
   window.addEventListener('scroll', changeNavBg)
   return (
     <nav>
-      <Container className={`${changeNavColor ? classes.active : ''} fixed min-w-full z-10 flex text-white justify-around md:flex-row`}>
+      <Container className={`${changeNavColor ? classes.active : ''} fixed min-w-full z-10 flex text-white justify-around md:flex-row`} >
         <div className="flex flex-row z-10 space-x-2">
           <span className="font-bold text-5xl flex flex-row">
             M
