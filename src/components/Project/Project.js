@@ -7,7 +7,7 @@ const Project = () => {
         <span className="relative flex text-white font-bold text-2xl md:text-4xl after:w-full after:bg-white after:h-0.5 after:absolute after:mt-8 after:md:mt-12 ">
           Projects
         </span>
-        <div data-aos='fade-up' className="flex justify-center">
+        <div data-aos="fade-up" className="flex justify-center">
           <div className="rounded-xl flex flex-col border-2 border-gray-700 shadow-md items-center w-full shadow-slate-400 space-y-6 p-6 transition duration-700 hover:scale-105 hover:shadow-2xl sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/3">
             <a href="https://nextjs-todo-project.vercel.app">
               <img src={todoImg} className="rounded-xl" alt="" />
@@ -16,8 +16,8 @@ const Project = () => {
               TODO List
             </span>
             <p className="text-gray-400 text-lg text-justify pt-6">
-              Todo website which includes authentication, fetching data, adding,
-              removing, updating data.
+              With my todo website, users can utilize it for authentication,
+              fetching, adding, removing and updating data.
             </p>
             <div className="flex flex-col items-center w-full md:flex-row">
               <div className="flex flex-row justify-around w-full">
