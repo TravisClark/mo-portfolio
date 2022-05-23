@@ -38,7 +38,7 @@ const Contact = () => {
               <img src={gmailIcon} className="h-8 w-8 self-center" alt="" />
               <div className="flex flex-col ">
                 <span className="font-bold">My Email</span>
-                <span>minhtriet17101@gmail.com</span>
+                <span se>minhtriet17101@gmail.com</span>
               </div>
             </div>
           </div>

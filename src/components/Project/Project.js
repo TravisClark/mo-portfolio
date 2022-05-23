@@ -37,12 +37,14 @@ const Project = () => {
               <a
                 href="https://github.com/TravisClark/mo-portfolio.git"
                 className="py-2 px-4 text-white rounded-xl font-medium bg-blue-500 lg:bg-transparent border border-blue-500 transition duration-500 hover:lg:bg-blue-500 hover:lg:ease-out"
+                target="_blank" rel="noreferrer" 
               >
                 Source
               </a>
               <a
                 href="https://nextjs-todo-project.vercel.app"
                 className="py-2 px-6 text-white rounded-xl font-medium bg-blue-500 lg:bg-transparent border border-blue-500 transition duration-500 hover:lg:bg-blue-500 hover:lg:ease-out"
+                target="_blank" rel="noreferrer" 
               >
                 Visit
               </a>
