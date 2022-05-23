@@ -117,14 +117,14 @@ const Header = () => {
           </a>
         </div>
         <div className="hidden flex-row space-x-6 self-end md:flex">
-          <a href="https://www.facebook.com/minhtriet1712001/">
+          <a href="https://www.facebook.com/minhtriet1712001/" target="_blank" rel="noreferrer" >
             <img
               src={fbLogo}
               className="h-8 rounded-full bg-gray-300 transition duration-500 ease-out hover:bg-white hover:scale-110"
-              alt=""
+              alt="" 
             />
           </a>
-          <a href="https://github.com/TravisClark">
+          <a href="https://github.com/TravisClark" target="_blank" rel="noreferrer" >
             <img
               src={githubLogo}
               className="h-8 rounded-full bg-gray-300 transition duration-500 ease-out hover:bg-white hover:scale-110"

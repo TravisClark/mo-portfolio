@@ -28,7 +28,7 @@ const Hero = () => {
             Hi! My name is Triet but you can call me Mo. This is a portfolio of
             a student who intends to become a professional <span className="text-white uppercase font-medium">front-end dev</span> in the
             next few years. Please feel free to look around and hopefully you
-            can give me some feedbacks. Thanks you so much!
+            can give me some feedbacks. Thank you so much!
           </p>
           <a href={MyResume} download={MyResume}><button className="px-8 py-4 border border-blue-600 w-fit text-white font-medium rounded-xl bg-transparent transition duration-500 hover:bg-gradient-to-r hover:from-blue-500 hover:to-blue-900 hover:border-0 hover:scale-105">
             Download CV
