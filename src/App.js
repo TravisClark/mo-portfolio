@@ -5,23 +5,26 @@ import Hero from "./components/Hero/Hero";
 import Intro from "./components/Intro/Intro";
 import Footer from "./components/Layout/Footer/Footer";
 import Header from "./components/Layout/Header/Header";
-import Project from "./components/Project/Project";
 import Technologies from "./components/Technologies/Technologies";
 import Aos from "aos";
-import "aos/dist/aos.css"
-import { useEffect } from "react";
+import "aos/dist/aos.css";
+import { useEffect, useMemo, useState } from "react";
+import ProjectList from "./components/ProjectList/ProjectList";
 function App() {
-  useEffect(()=>{
-    Aos.init({duration: 2000});
-  }, [])
+  const [introIsDisplayed, setIntroIsDisplayed] = useState(true);
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+    setTimeout(() => setIntroIsDisplayed(false), 5000);
+  }, []);
   return (
     <>
-      <Intro/>
+      {introIsDisplayed && <Intro/>}
       <Header/>
-      <Hero/>
+      {useMemo(()=> <Hero/>,[])}
       <About/>
       <Technologies/>
-      <Project/>
+      <ProjectList/>
       <Contact/>
       <Footer/>
     </>
