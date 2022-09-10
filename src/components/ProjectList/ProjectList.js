@@ -4,22 +4,22 @@ import todoImg from "../../assets/todo.png";
 import eboxImg from "../../assets/project-2.png";
 
 const projectList = [
-  {
-    id: "item1",
-    title: "TODO List",
-    img: todoImg,
-    description:
-      "With my todo website, users can utilize it for authentication, fetching, adding, removing and updating data.",
-    technologies: ["Next JS", "Redux-toolkit", "React", "Material-UI"],
-    github: "https://github.com/TravisClark/mo-portfolio.git",
-    address: "https://nextjs-todo-project.vercel.app",
-  },
+  // {
+  //   id: "item1",
+  //   title: "TODO List",
+  //   img: todoImg,
+  //   description:
+  //     "With my todo website, users can utilize it for authentication, fetching, adding, removing and updating data.",
+  //   technologies: ["Next JS", "Redux-toolkit", "React", "Material-UI"],
+  //   github: "https://github.com/TravisClark/mo-portfolio.git",
+  //   address: "https://nextjs-todo-project.vercel.app",
+  // },
   {
     id: "item2",
     title: "E-box VLU",
     img: eboxImg,
     description:
-      "Main functions: question management, chat, notification management, account management, and more. Please read README.md on github for more information",
+      "Main functions: question management, chat, notification management, account management, ... and more. Please read README.md on github for more information",
     technologies: ["React", "Redux-toolkit", "TailwindCss", "Socket.io"],
     github: "https://github.com/TravisClark/E-box-VLU-Client",
     address: "https://jovial-cobbler-3fdbeb.netlify.app/E-boxVLU",
